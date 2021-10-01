@@ -1,5 +1,8 @@
-qMonkey 
+# qMonkey 
+loves IT & Technical Bananastories - escpecially the MS Fruits<br />
+can be found hanging in & from branches, will code for Bananas
 
-CICD Bananas
+## Banana-postings
+[cicd postings (yml, azure pipelines)](bananas/cicd.md )
 
 
