@@ -14,12 +14,20 @@ When you are new to the Azure Pipelines/Build/Deploy mechanics you should certai
 ### Experienced monkeys should use it as well
 When you are experienced in the operations of the Azure Pipeline this will help you to get the correct setup in a visual way. After that it is easy to get the YAML format of the task you have implemented.
 
+## Azure Pipeline - howto setup
+1. Think about what main stages the pipeline will handle
+  1. Build (build, run unittests, publish artifacts)
+  1. Provision (create azure infrastructure/resourcegroup)
+  1. Compliancy checking (azure compliancy/resourcegroup)
+  1. Deploy (deploy webapp)
+1. Create the stages in a yaml file : pipeline.yml
+1. Run the pipeline to see the stages succeed
 
-### Building
-### Provisioning
-### Compliancy checking
-### Deploying
-### Templating (json)
+## Azure Pipeline - howto implement stages
+When samples say more then a thousand worded lines go [get the sample pipeline](samplepipeline.yml) from github.
+
+
+
 
 
 
